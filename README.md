@@ -20,7 +20,7 @@ termux-setup-storage
 #### termux dependencies
 
 ```bash
-apt install -y arj atool bat binutils bzip2 cabextract coreutils cpio curl dconf-editor diffutils dialog evince eza fd file findutils fzf git grep gzip htop jq less lhasa lzip lzop make mc nala ncompress neovim openssh openssl p7zip procps python python-pip ripgrep sed tar tmux unrar unzip uuid-utils xz-utils zoxide zsh zstd
+apt install -y arj atool bat binutils bzip2 cabextract coreutils cpio curl dconf-editor diffutils dialog evince eza fd file findutils fzf git grep gzip helix jq less lhasa lzip lzop make nala ncompress openssh openssl p7zip procps python python-pip ripgrep sed tar tmux unrar unzip uuid-utils xz-utils yazi zoxide zsh zstd
 ```
 
 #### install gogh color schemes
