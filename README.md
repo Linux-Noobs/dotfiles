@@ -32,13 +32,13 @@ bash -c  "$(curl -fsSL https://raw.githubusercontent.com/officialrajdeepsingh/ne
 #### termux dependencies
 
 ```bash
-apt install -y arj atool bat binutils bzip2 cabextract coreutils cpio curl dconf-editor diffutils dialog evince eza fd file findutils fzf git grep gzip helix jq less lhasa lzip lzop make nala ncompress openssh openssl p7zip procps python python-pip ripgrep sed tar unrar unzip uuid-utils xz-utils yazi zoxide zsh zstd
+apt install -y arj atool bat binutils bzip2 cabextract coreutils cpio curl dconf-editor diffutils dialog evince eza fd file findutils fzf git grep gzip helix jq less lhasa lzip lzop make mc nala ncompress openssh openssl p7zip procps python python-pip ripgrep sed tar unrar unzip uuid-utils xz-utils zoxide zsh zstd
 ```
 
 #### voidlinux dependencies
 
 ```bash
-sudo xbps-install -S atool bat binutils cabextract cpio curl dconf evince eza fzf git helix jq lhasa lzip lzop mesa-dri p7zip psutils python3 python3-pip python3-rich ripgrep unzip xdg-utils xorg xz yazi zoxide zsh zstd
+sudo xbps-install -S atool bat binutils cabextract cpio curl dconf evince eza fzf git helix jq lhasa lzip lzop noto-fonts-ttf noto-fonts-cjk noto-fonts-emoji mc mesa-dri p7zip psutils python3 python3-pip python3-rich ripgrep unzip xdg-utils xorg xz zoxide zsh zstd
 ```
 
 #### install i3WM on voidlinux
