@@ -3,17 +3,12 @@
 ####################################################################
 alias q="exit"
 alias c="clear"
-alias h='~'
-alias r='ranger'
 alias f="find . | grep -i "
 alias mkdir='mkdir -pv'
 alias mv='mv -iv'
 alias cp='cp -rfiv'
 alias rm='rm -rfIv'
 alias ..='cd ..'
-alias st='cd ~/storage/shared'
-alias ds='cd ~/storage/shared/Documents'
-alias dl='cd ~/storage/shared/Download'
 alias ls='eza --icons'
 alias la='eza --icons -a'
 alias ll='eza --icons -lah'
@@ -22,6 +17,7 @@ alias lta='eza --icons --tree -lah'
 alias lp="fzf --preview='bat --color=always --style=numbers --theme=Dracula {}' --preview-window=down"
 alias fn='nvim $(fzf -m --preview="bat --color=always --style=numbers --theme=Dracula {}" --preview-window=down)'
 alias fv='vim $(fzf -m --preview="bat --color=always --style=numbers --theme=Dracula {}" --preview-window=down)'
+alias fh='hx $(fzf -m --preview="bat --color=always --style=numbers --theme=Dracula {}" --preview-window=down)'
 alias fd="cd \$(find . -type d | fzf)"
 if command -v batcat &>/dev/null; then
     alias cat='batcat --theme=Dracula'
