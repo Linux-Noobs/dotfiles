@@ -137,9 +137,9 @@ bindsym $mod+r mode "resize"
 bar {
     position top
     padding 1px
-    font pango:FiraCode Nerd Font Bold 10
+    font pango:FiraCode Nerd Font Bold 12
         status_command /usr/bin/bumblebee-status \
-                -m title memory disk date \
+                -m memory disk date \
                 -p date.format="%a. %b. %d, %Y" \
                 -t tokyonight-storm
     colors {
@@ -157,6 +157,7 @@ bar {
 bindsym $mod+Shift+o exec /home/voidlinux/.local/bin/obsidian --no-sandbox 
 bindsym $mod+Shift+v exec /usr/share/code/code --no-sandbox
 bindsym $mod+Shift+b exec /usr/bin/brave-browser-stable --no-sandbox
+bindsym $mod+Shift+w exec firefox
 bindsym $mod+Shift+f exec pcmanfm
 bindsym $mod+Shift+t exec lxterminal
 
