@@ -17,12 +17,6 @@ termux-wake-lock
 termux-setup-storage
 ```
 
-#### termux dependencies
-
-```bash
-apt install -y arj atool bat binutils bzip2 cabextract coreutils cpio curl dconf-editor diffutils dialog evince eza fd file findutils fzf git grep gzip helix jq less lhasa lzip lzop make nala ncompress openssh openssl p7zip procps python python-pip ripgrep sed tar tmux unrar unzip uuid-utils xz-utils yazi zoxide zsh zstd
-```
-
 #### install gogh color schemes
 
 ```bash
@@ -33,6 +27,24 @@ bash -c "$(wget -qO- https://git.io/vQgMr)"
 
 ```bash
 bash -c  "$(curl -fsSL https://raw.githubusercontent.com/officialrajdeepsingh/nerd-fonts-installer/main/install.sh)"
+```
+
+#### termux dependencies
+
+```bash
+apt install -y arj atool bat binutils bzip2 cabextract coreutils cpio curl dconf-editor diffutils dialog evince eza fd file findutils fzf git grep gzip helix jq less lhasa lzip lzop make nala ncompress openssh openssl p7zip procps python python-pip ripgrep sed tar tmux unrar unzip uuid-utils xz-utils yazi zoxide zsh zstd
+```
+
+#### voidlinux dependencies
+
+```bash
+sudo xbps-install -S atool bat binutils cabextract cpio curl dconf evince eza fzf git helix jq lhasa lzip lzop mesa-dri p7zip psutils python3 python3-pip python3-rich ripgrep unzip xdg-utils xorg xz yazi zoxide zsh zstd
+```
+
+#### install i3WM on voidlinux
+
+```bash
+sudo xbps-install -S lxde alacritty i3 python3-i3ipc bumblebee-status autotiling nitrogen pulseaudio rofi firefox
 ```
 
 #### install desktop environment
