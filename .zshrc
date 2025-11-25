@@ -5,6 +5,7 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
   source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 fi
 
+#!/usr/bin/env zsh
 #!/data/data/com.termux/files/usr/bin/env zsh
 # =============================================================================
 # ZSH Configuration File (.zshrc)
