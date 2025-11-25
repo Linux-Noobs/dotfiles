@@ -54,6 +54,10 @@ PS1='\[\e[32m\]\u@\h\[\e[0m\]:\[\e[36m\]\w\[\e[0m\]\$ '
 # Add user-specific environment variables
 export PATH="$HOME/.local/bin:$PATH"
 
+# Editor preferences
+export EDITOR="hx"
+export VISUAL="hx"
+
 # Source additional scripts or configurations
 # (Add any custom scripts here, e.g., for tools or environments)
 
