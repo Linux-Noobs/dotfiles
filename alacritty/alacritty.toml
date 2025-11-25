@@ -9,13 +9,10 @@ COLORTERM = "truecolor"
 [window]
 opacity = 1.0
 padding = { x = 6, y = 6 }
-decorations = "none"
+decorations = "Full"
 dynamic_padding = true
 startup_mode = "Windowed"
 blur = false
-
-# Rounded corners (supported on some compositors like Picom)
-option_as_alt = "Both"
 
 [font]
 size = 15.0
@@ -64,13 +61,6 @@ text = "#c0caf5"
 [scrolling]
 history = 10000
 multiplier = 3
-
-# ===========================================
-# Shell Configuration — Auto Launch tmux.sh
-# ===========================================
-[terminal.shell]
-program = "/usr/bin/env"
-args = ["zsh", "-i", "-c", "~/.local/bin/tmux.sh"]
 
 # ===========================================
 # Keybindings
