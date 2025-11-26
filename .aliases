@@ -26,6 +26,7 @@ fi
 alias vi='vim'
 alias nv='nvim'
 alias z='zellij'
+alias r='ranger'
 alias psu="ps aux"
 alias psg="ps aux | grep -i" # Usage: psg process_name
 alias kill9="kill -9"
