@@ -19,8 +19,8 @@ export PATH="$HOME/.local/bin:$PATH"
 export PATH="$HOME/.local/share/zinit/polaris/bin:$PATH"
 
 # Editor preferences
-export EDITOR="hx"
-export VISUAL="hx"
+export EDITOR="nvim"
+export VISUAL="nvim"
 
 # Enable auto-cd
 setopt AUTO_CD
