@@ -17,7 +17,6 @@ alias lta='eza --icons --tree -lah'
 alias lp="fzf --preview='bat --color=always --style=numbers --theme=Dracula {}' --preview-window=down"
 alias fn='nvim $(fzf -m --preview="bat --color=always --style=numbers --theme=Dracula {}" --preview-window=down)'
 alias fv='vim $(fzf -m --preview="bat --color=always --style=numbers --theme=Dracula {}" --preview-window=down)'
-alias fh='hx $(fzf -m --preview="bat --color=always --style=numbers --theme=Dracula {}" --preview-window=down)'
 alias fd="cd \$(find . -type d | fzf)"
 if command -v batcat &>/dev/null; then
     alias cat='batcat --theme=Dracula'
@@ -26,6 +25,7 @@ else
 fi
 alias vi='vim'
 alias nv='nvim'
+alias z='zellij'
 alias psu="ps aux"
 alias psg="ps aux | grep -i" # Usage: psg process_name
 alias kill9="kill -9"
