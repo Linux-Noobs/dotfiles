@@ -32,13 +32,13 @@ bash -c  "$(curl -fsSL https://raw.githubusercontent.com/officialrajdeepsingh/ne
 #### termux dependencies
 
 ```bash
-apt install -y arj atool bat binutils bzip2 cabextract coreutils cpio curl dconf-editor diffutils dialog evince eza fd file findutils fzf git grep gzip jq less lhasa lzip lzop make nala ncompress neovim openssh openssl p7zip procps python python-pip ranger ripgrep sed tar unrar unzip uuid-utils xz-utils zoxide zsh zstd
+apt install -y arj atool bat binutils bzip2 cabextract coreutils cpio curl dconf-editor diffutils dialog evince eza fd file findutils fzf git grep gzip jq less lhasa lzip lzop make nala ncompress neovim openssh openssl p7zip procps python python-pip ranger ripgrep sed tar unrar unzip uuid-utils xz-utils zellij zoxide zsh zstd
 ```
 
 #### voidlinux dependencies
 
 ```bash
-sudo xbps-install -S atool bat binutils cabextract cpio curl dconf evince eza fzf git jq lhasa lzip lzop noto-fonts-ttf noto-fonts-cjk noto-fonts-emoji mesa-dri neovim p7zip psutils python3 python3-pip python3-rich ranger ripgrep unzip xdg-utils xorg xz zoxide zsh zstd
+sudo xbps-install -S atool bat binutils cabextract cpio curl dconf evince eza fzf git jq lhasa lzip lzop noto-fonts-ttf noto-fonts-cjk noto-fonts-emoji mesa-dri neovim p7zip psutils python3 python3-pip python3-rich ranger ripgrep unzip xdg-utils xorg xz zellij zoxide zsh zstd
 ```
 
 #### install i3WM on voidlinux
