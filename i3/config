@@ -181,5 +181,5 @@ gaps top 8
 smart_gaps on
 
 # Window borders & splits
-for_window [class=".*"] border pixel 2
+for_window [class=".*"] border pixel 3
 
