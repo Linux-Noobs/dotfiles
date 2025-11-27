@@ -65,6 +65,8 @@
   "editor.formatOnSave": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.hover.enabled": false,
+  "editor.autoClosingQuotes": "always",
+  "editor.autoClosingBrackets": "always",
 
   "editor.tokenColorCustomizations": {
     "textMateRules": [
@@ -122,12 +124,13 @@
     "files.trimTrailingWhitespace": false
   },
   "editor.guides.bracketPairs": true,
-  "window.zoomLevel": 1,
+  "window.zoomLevel": 2,
   "workbench.tree.indent": 10,
   "window.menuBarVisibility": "compact",
   "workbench.activityBar.location": "hidden",
   "workbench.tree.renderIndentGuides": "always",
   "workbench.tree.enableStickyScroll": false,
+  "workbench.editor.empty.hint": "hidden",
   "files.insertFinalNewline": true,
   "chat.agent.enabled": false,
   "chat.commandCenter.enabled": false,
@@ -1122,6 +1125,5 @@
       "type": "command",
       "command": "workbench.action.toggleZenMode"
     }
-  ],
-  "workbench.editor.empty.hint": "hidden"
+  ]
 }
