@@ -28,7 +28,7 @@ set textwidth=1               " Disable automatic line breaking
 set wrapmargin=1              " Disable wrap margin
 let mapleader = " "           " Set leader key to space
 set termguicolors             " Enable true colors for better theme support
-set scrolloff=999
+set scrolloff=999             " Cursor on center while scrolling
 set hidden                    " Allow switching buffers without saving
 set updatetime=300            " Faster completion updates
 set shortmess+=c              " Avoid showing extra messages for completion
