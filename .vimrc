@@ -28,6 +28,7 @@ set textwidth=1               " Disable automatic line breaking
 set wrapmargin=1              " Disable wrap margin
 let mapleader = " "           " Set leader key to space
 set termguicolors             " Enable true colors for better theme support
+set scrolloff=999
 set hidden                    " Allow switching buffers without saving
 set updatetime=300            " Faster completion updates
 set shortmess+=c              " Avoid showing extra messages for completion
@@ -79,7 +80,13 @@ nnoremap <leader>fb :Buffers<CR>
 nnoremap <leader>fo :History<CR>
 
 " Integrated terminal
-nnoremap <leader>t :terminal<CR>
+nnoremap <leader>\ :terminal<CR>
+
+" Floaterm config
+nnoremap <leader>t :FloatermToggle<CR>
+
+" Code Runner keybind
+nnoremap <leader>q :QuickRun<CR>
 
 " Code navigation (coc.nvim)
 nmap <silent> gd <Plug>(coc-definition)
@@ -132,17 +139,18 @@ endif
 " === PLUGINS ===
 " ========================
 call plug#begin('~/.vim/plugged')
-" Performance
-Plug 'lewis6991/impatient.nvim'
+
 " File explorer
 Plug 'preservim/nerdtree'
 " Status bar
 Plug 'vim-airline/vim-airline'
 " Commenting
 Plug 'tpope/vim-commentary'
-" Auto-pairs
+" Surround
+Plug 'tpope/vim-surround'
+" Auto pairs
 Plug 'jiangmiao/auto-pairs'
-" Syntax highlighting
+" Syntax
 Plug 'sheerun/vim-polyglot'
 " Theme
 Plug 'ghifarit53/tokyonight-vim'
@@ -151,8 +159,21 @@ Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 " Icons
 Plug 'ryanoasis/vim-devicons'
-" Code completion
+" Completion
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
+" Indent guides
+Plug 'Yggdroot/indentLine'
+" Code runner
+Plug 'thinca/vim-quickrun'
+" Which-key
+Plug 'liuchengxu/vim-which-key'
+" Color preview
+Plug 'chrisbra/Colorizer'
+" Terminal popup
+Plug 'voldikss/vim-floaterm'
+
+call plug#end()
+
 
 " ========================
 " === PLUGIN CONFIG ===
@@ -181,4 +202,14 @@ let g:NERDTreeShowHidden = 1
 let g:NERDTreeMinimalUI = 1
 let g:NERDTreeDirArrows = 1
 
+" IndentLine config
+let g:indentLine_char = '│'
+let g:indentLine_enabled = 1
+
+
+" Which-key config
+nnoremap <silent> <leader> :WhichKey '<leader>'<CR>
+
+" Colorizer config
+autocmd BufReadPost * ColorHighlight!
 
