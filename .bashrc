@@ -55,8 +55,8 @@ PS1='\[\e[32m\]\u@\h\[\e[0m\]:\[\e[36m\]\w\[\e[0m\]\$ '
 export PATH="$HOME/.local/bin:$PATH"
 
 # Editor preferences
-export EDITOR="nvim"
-export VISUAL="nvim"
+export EDITOR="vim"
+export VISUAL="vim"
 
 # Source additional scripts or configurations
 # (Add any custom scripts here, e.g., for tools or environments)
