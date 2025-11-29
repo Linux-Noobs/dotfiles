@@ -155,7 +155,7 @@ Plug 'sheerun/vim-polyglot'
 " Theme
 Plug 'ghifarit53/tokyonight-vim'
 " Fuzzy finder
-Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+Plug 'junegunn/fzf'
 Plug 'junegunn/fzf.vim'
 " Icons
 Plug 'ryanoasis/vim-devicons'
