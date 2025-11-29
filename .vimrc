@@ -174,7 +174,6 @@ Plug 'voldikss/vim-floaterm'
 
 call plug#end()
 
-
 " ========================
 " === PLUGIN CONFIG ===
 " ========================
