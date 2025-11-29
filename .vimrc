@@ -183,16 +183,23 @@ let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#tabline#buffer_nr_show = 1
 let g:airline#extensions#tabline#fnamemod = ':t'
 let g:airline#extensions#tabline#formatter = 'unique_tail'
+let g:airline_theme = "tokyonight"
 
 " coc.nvim
 inoremap <silent><expr> <Tab> pumvisible() ? "\<C-n>" : "\<Tab>"
 inoremap <expr> <S-Tab> pumvisible() ? "\<C-p>" : "\<S-Tab>"
 inoremap <expr> <CR> pumvisible() ? "\<C-y>" : "\<CR>"
 
+" Enable inline diagnostics (Error Lens style)
+let g:coc_diagnostic_virtual_text = 1
+let g:coc_diagnostic_virtual_text_prefix = '● '
+let g:coc_diagnostic_highlight = 1
+
 " fzf.vim
 let g:fzf_layout = { 'window': { 'width': 0.9, 'height': 0.6 } }
 
 " Theme
+let g:tokyonight_style = 'storm' " available: night, storm
 colorscheme tokyonight
 set background=dark
 
