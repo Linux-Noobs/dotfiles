@@ -64,17 +64,17 @@ apt install -y gnome-themes-extra xfce4 xfce4-terminal xfce4-appfinder xfce4-bat
 #### install i3WM
 
 ```bash
-apt install -y alacritty i3 python3-i3ipc nitrogen pcmanfm lxappearance pulseaudio rofi gpicview
+sudo apt install -y alacritty i3 python3-i3ipc nitrogen pcmanfm lxappearance pulseaudio rofi gpicview autotiling bumblebee-status firefox
 ```
 
 #### debian dependencies
 
 ```bash
-sudo apt install -y arj atool bat binutils bzip2 cabextract coreutils cpio curl dconf-cli diffutils dialog evince eza file findutils fzf htop git gnome-keyring grep gzip jq less lhasa lzip lzop mc nala ncompress neovim openssl p7zip procps python3 python3-pip ripgrep sed tar tmux unace unrar-free unzip uuid-runtime xz-utils xdg-utils zoxide zsh zstd
+sudo apt install -y arj atool bat binutils bzip2 cabextract coreutils cpio curl dconf-cli diffutils dialog evince eza fd-find file findutils fzf git grep gzip jq less lhasa lzip lzop make nala ncompress nodejs openssl p7zip procps python3 python3-pip ranger sed tar unace unrar-free unzip uuid-runtime vim xz-utils xdg-utils zoxide zstd
 ```
 
 #### install libreoffice in debian
 
 ```bash
-sudo apt install libreoffice-writer libreoffice-calc libreoffice-impress
+sudo apt install libreoffice-writer libreoffice-calc libreoffice-impress libreoffice-gtk3
 ```
