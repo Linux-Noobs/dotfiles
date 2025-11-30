@@ -1,0 +1,67 @@
+{
+  "icons": ["ascii"],
+  "defaults": {
+    "separator-block-width": 0,
+    "critical": {
+      "fg": "#f7768e",
+      "bg": "#1f2335"
+    },
+    "warning": {
+      "fg": "#e0af68",
+      "bg": "#1f2335"
+    },
+    "default-separators": false,
+    "separator": ""
+  },
+  "cycle": [
+    {
+      "fg": "#9ece6a",
+      "bg": "#1f2335"
+    },
+    {
+      "fg": "#7dcfff",
+      "bg": "#1f2335"
+    }
+  ],
+  "dnf": {
+    "good": {
+      "fg": "#7aa2f7",
+      "bg": "#1f2335"
+    }
+  },
+  "apt": {
+    "good": {
+      "fg": "#bb9af7",
+      "bg": "#1f2335"
+    }
+  },
+  "battery": {
+    "charged": {
+      "fg": "#9ece6a",
+      "bg": "#1f2335"
+    },
+    "AC": {
+      "fg": "#7dcfff",
+      "bg": "#1f2335"
+    }
+  },
+  "git": {
+    "modified": { "bg": "#e0af68" },
+    "deleted": { "bg": "#f7768e" },
+    "new": { "bg": "#9ece6a" }
+  },
+  "pomodoro": {
+    "paused": {
+      "fg": "#e0af68",
+      "bg": "#1f2335"
+    },
+    "work": {
+      "fg": "#9ece6a",
+      "bg": "#1f2335"
+    },
+    "break": {
+      "fg": "#f7768e",
+      "bg": "#1f2335"
+    }
+  }
+}
